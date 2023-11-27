@@ -1,0 +1,108 @@
+.nav_bg {
+    /* position: fixed; */
+    width: 100%;
+    background-color: #02121D;
+
+}
+
+.header_logo_main {
+    width: 100px !important;
+    justify-content: left !important;
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+.nav_h_li {
+    font-size: 1.125rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    padding: 15px 22px !important;
+    text-transform: uppercase !important;
+    text-decoration: none;
+}
+
+.stack_btn_h {
+    /* background-color: var(--clr); */
+    background-color: #FFBF00;
+    width: 134px;
+    height: 50px;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: black;
+}
+
+.stack_btn_h:hover {
+    /* border: 1px solid var(--clr); */
+    border: #FFBF00 1px solid;
+    background-color: transparent;
+    /* color: var(--clr); */
+    color: white !important
+}
+
+
+.navbar-light .navbar-toggler {
+    background-color: white !important;
+}
+
+.navbar_main{
+    padding: 0px 0px;
+}
+
+.navbar_main img{
+    width: 140px;
+}
+
+.lenkk{
+    display: flex;
+}
+
+.user{
+    font-size: 30px;
+}
+ h3 {
+    font-size: 20px;
+}
+
+.offcanvas-header .btn-close{
+    font-size: 30px;
+}
+
+.offcanvas-header{
+    padding: 18px;
+}
+
+.offcanvas-body{
+    padding: 15px;
+}
+
+.navbar-light .navbar-toggler{
+    display: none;
+}
+
+.iicon{
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .lenkk{
+        margin-bottom: 30px;
+    }
+
+    .user{
+        font-size: 30px;
+    }
+}
+
+.user {
+    cursor: pointer;
+}
+
+.collapse:not(.show) {
+    display: block; 
+}
+
+.collapse:not(.show) {
+    display: block; 
+}
