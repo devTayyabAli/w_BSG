@@ -1,0 +1,124 @@
+/* .homef_main {
+    padding: 100px 0px;
+    background-image: url(../Assets/bg.png);
+} */
+
+.homef_h1 {
+    font-size: 4.0625rem;
+    margin-bottom: 15px;
+    text-transform: uppercase !important;
+    font-family: "Rajdhani", sans-serif;
+    color: #ffbf00 !important;
+    line-height: 1.25;
+    font-weight: 700;
+    text-align: left;
+}
+
+.homef_p {
+    font-size: 1.125rem;
+    color: #fff;
+    max-inline-size: 50ch;
+    text-align: left;
+}
+
+.ani {
+    animation: glide 2s ease-in-out alternate infinite;
+    position: relative;
+}
+
+@keyframes glide {
+    from {
+        left: 0px;
+        top: 0px;
+    }
+
+    to {
+        left: 0px;
+        top: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .home_f_img {
+        width: 250px !important;
+    }
+
+    .homef_h1 {
+        font-size: 2rem;
+    }
+}
+
+a{
+    text-decoration: none !important;
+}
+
+p{
+    margin-bottom: 10px !important;
+}
+
+@media screen and (max-width:800px) {
+    .IndBanB{
+        text-align: center !important;
+    }
+
+    .contribute{
+        display: flex !important;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .Indwark{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .IndxinA{
+        margin-bottom: 16px;
+    }
+
+    .IndxinA p{
+        padding: 0px 8px 15px 8px;
+    }
+
+    .Indjfzs{
+        margin-bottom: 29px;
+    }
+
+    /* .IndchiKRa{
+        padding: 10px 20px;
+    } */
+
+
+    .IndchiHa {
+        margin-bottom: 50px;
+    }
+
+    .Indzhu{
+        padding-bottom: 10px;
+    }
+
+    h3{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width:801px) and (max-width:4000px) {
+    .Indzhu{
+        padding-bottom: 20px;
+    }
+}
+
+.latestDeposit{
+    color: black;
+}
+
+.IndchiKRa span {
+    color: #fb6320;
+    margin-left: auto;
+}
